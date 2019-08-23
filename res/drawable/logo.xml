@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (c) 2019 CarbonROM
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="512dp"
-    android:height="320dp"
-    android:viewportWidth="512"
-    android:viewportHeight="320">
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="1024.000000"
+    android:viewportHeight="1024.000000">
 
     <group
             android:translateY="1024.000000"
             android:scaleX="0.100000"
             android:scaleY="-0.100000">
         <path
-            android:fillColor="#FFFFFFFF"
+            android:fillColor="@color/welcome_accent"
             android:strokeWidth="1"
             android:pathData="M4585 9870 c-11 -5 -61 -9 -112 -9 -50 -1 -95 -5 -98 -11 -3 -5 -33 -10 -65 -10
 -32 0 -62 -4 -65 -10 -3 -5 -30 -10 -59 -10 -28 0 -56 -4 -62 -9 -5 -5 -28 -12 -51
@@ -131,7 +116,7 @@
 -26 10 -51 10 -24 0 -44 5 -44 10 0 6 -26 10 -59 10 -33 0 -63 5 -66 10 -3 6 -32
 10 -64 10 -31 0 -61 4 -66 9 -6 5 -53 12 -105 16 -164 10 -734 14 -755 5z" />
         <path
-            android:fillColor="#FFFFFFFF"
+            android:fillColor="@color/welcome_accent"
             android:strokeWidth="1"
             android:pathData="M2467 6416 c-41 -40 -87 -91 -103 -112 -16 -21 -45 -55 -64 -74 -20 -19 -47 -51
 -60 -70 -13 -19 -31 -42 -40 -50 -9 -8 -27 -31 -40 -50 -13 -19 -32 -42 -42 -51
@@ -218,7 +203,7 @@
 -4 37 -9 42 -5 6 -11 28 -14 50 -4 22 -11 65 -17 95 -15 73 -29 165 -41 275 -12 98
 -15 739 -4 873 4 55 3 82 -4 82 -6 0 -44 -33 -84 -74z" />
         <path
-            android:fillColor="#FFFFFFFF"
+            android:fillColor="@color/welcome_accent"
             android:strokeWidth="1"
             android:pathData="M9640 4705 c0 -14 -4 -25 -10 -25 -5 0 -10 -11 -10 -24 0 -14 -4 -28 -10 -31 -5 -3
 -10 -15 -10 -26 0 -10 -4 -19 -10 -19 -5 0 -10 -11 -10 -24 0 -14 -4 -28 -10 -31

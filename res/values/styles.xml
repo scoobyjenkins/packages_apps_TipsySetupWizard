@@ -57,6 +57,12 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="WelcomeTitle">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/welcome_accent</item>
+    </style>
+
     <style name="PageSummaryText">
         <item name="android:id">@android:id/summary</item>
         <item name="android:lineSpacingExtra">@dimen/setup_line_spacing</item>

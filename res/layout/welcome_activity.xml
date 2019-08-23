@@ -24,20 +24,35 @@
     android:orientation="vertical"
     android:background="@color/primary">
 
-    <ImageView
-        android:id="@+id/brand_logo"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0px"
-        android:layout_weight="1"
-        android:src="@drawable/logo"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:gravity="center"
-        android:padding="@dimen/content_margin_left"/>
+        android:layout_height="match_parent"
+        android:gravity="center">
 
+        <ImageView
+            android:id="@+id/brand_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"    
+            android:gravity="center"
+            android:padding="@dimen/content_margin_left"/>
+<!--            android:scaleType="fitCenter"-->
+        <TextView
+            android:id="@+id/brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brand_logo"
+            android:gravity="center_horizontal"
+            android:text="@string/os_name"
+            android:textSize="60sp"/>
 
-    <fragment android:name="com.android.setupwizard.navigationbar.SetupWizardNavBar"
-        android:id="@+id/navigation_bar"
-        style="@style/setup_wizard_navbar_style" />
-
+        <fragment android:name="com.android.setupwizard.navigationbar.SetupWizardNavBar"
+            android:id="@+id/navigation_bar"
+            style="@style/setup_wizard_navbar_style" />
+<!--            android:layout_below="@id/brand_name"
+            android:layout_alignParentBottom="true"-->
+    </RelativeLayout>
 </LinearLayout>
