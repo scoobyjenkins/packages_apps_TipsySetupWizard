@@ -47,4 +47,13 @@
         android:ellipsize="end"
         style="@style/WelcomeTitle" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/corner_radius"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="@null" 
+        android:src="@drawable/rounded_corners"/>
+
 </RelativeLayout>
