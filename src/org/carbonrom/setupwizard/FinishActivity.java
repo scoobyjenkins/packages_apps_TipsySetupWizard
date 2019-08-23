@@ -44,7 +44,7 @@ import com.android.setupwizardlib.util.WizardManagerHelper;
 
 import org.carbonrom.setupwizard.util.EnableAccessibilityController;
 
-import lineageos.providers.LineageSettings;
+//import lineageos.providers.LineageSettings;
 
 public class FinishActivity extends BaseSetupWizardActivity {
 
@@ -183,21 +183,21 @@ public class FinishActivity extends BaseSetupWizardActivity {
 
     private static void handleEnableMetrics(SetupWizardApp setupWizardApp) {
         Bundle privacyData = setupWizardApp.getSettingsBundle();
-        if (privacyData != null
+        /*if (privacyData != null
                 && privacyData.containsKey(KEY_SEND_METRICS)) {
             LineageSettings.Secure.putInt(setupWizardApp.getContentResolver(),
                     LineageSettings.Secure.STATS_COLLECTION, privacyData.getBoolean(KEY_SEND_METRICS)
                             ? 1 : 0);
-        }
+        }*/
     }
 
     private static void handlePrivacyGuard(SetupWizardApp setupWizardApp) {
         Bundle mPrivacyData = setupWizardApp.getSettingsBundle();
-        if (mPrivacyData != null && mPrivacyData.containsKey(KEY_PRIVACY_GUARD)) {
+        /*if (mPrivacyData != null && mPrivacyData.containsKey(KEY_PRIVACY_GUARD)) {
             LineageSettings.Secure.putInt(setupWizardApp.getContentResolver(),
                     LineageSettings.Secure.PRIVACY_GUARD_DEFAULT,
                     mPrivacyData.getBoolean(KEY_PRIVACY_GUARD) ? 1 : 0);
-        }
+        }*/
     }
 
     private static void handleNavKeys(SetupWizardApp setupWizardApp) {
@@ -210,17 +210,17 @@ public class FinishActivity extends BaseSetupWizardActivity {
     private static void writeDisableNavkeysOption(Context context, boolean enabled) {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-        final boolean virtualKeysEnabled = LineageSettings.System.getIntForUser(
+        final boolean virtualKeysEnabled = true; /*LineageSettings.System.getIntForUser(
                     context.getContentResolver(), LineageSettings.System.FORCE_SHOW_NAVBAR, 0,
-                    UserHandle.USER_CURRENT) != 0;
-        if (enabled != virtualKeysEnabled) {
+                    UserHandle.USER_CURRENT) != 0;*/
+       /* if (enabled != virtualKeysEnabled) {
             LineageSettings.System.putIntForUser(context.getContentResolver(),
                     LineageSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0,
                     UserHandle.USER_CURRENT);
-        }
+        }*/
 
         /* Save/restore button timeouts to disable them in softkey mode */
-        if (enabled) {
+        /*if (enabled) {
             LineageSettings.Secure.putInt(context.getContentResolver(),
                     LineageSettings.Secure.BUTTON_BRIGHTNESS, 0);
         } else {
@@ -230,6 +230,6 @@ public class FinishActivity extends BaseSetupWizardActivity {
                     currentBrightness);
             LineageSettings.Secure.putInt(context.getContentResolver(),
                     LineageSettings.Secure.BUTTON_BRIGHTNESS, oldBright);
-        }
+        }*/
     }
 }

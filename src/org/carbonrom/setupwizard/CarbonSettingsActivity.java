@@ -45,8 +45,8 @@ import com.android.setupwizardlib.util.WizardManagerHelper;
 
 import org.carbonrom.setupwizard.R;
 
-import lineageos.hardware.LineageHardwareManager;
-import lineageos.providers.LineageSettings;
+//import lineageos.hardware.LineageHardwareManager;
+//import lineageos.providers.LineageSettings;
 
 public class CarbonSettingsActivity extends BaseSetupWizardActivity {
 
@@ -126,18 +126,18 @@ public class CarbonSettingsActivity extends BaseSetupWizardActivity {
         navKeysRow.setOnClickListener(mNavKeysClickListener);
         mNavKeys = (CheckBox) findViewById(R.id.nav_keys_checkbox);
         mSupportsKeyDisabler = isKeyDisablerSupported(this);
-        if (mSupportsKeyDisabler) {
+        /*if (mSupportsKeyDisabler) {
             mNavKeys.setChecked(LineageSettings.System.getIntForUser(getContentResolver(),
                     LineageSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0);
         } else {
             navKeysRow.setVisibility(View.GONE);
-        }
+        }*/
 
         View privacyGuardRow = findViewById(R.id.privacy_guard);
         privacyGuardRow.setOnClickListener(mPrivacyGuardClickListener);
         mPrivacyGuard = (CheckBox) findViewById(R.id.privacy_guard_checkbox);
-        mPrivacyGuard.setChecked(LineageSettings.Secure.getInt(getContentResolver(),
-                LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1);
+        //mPrivacyGuard.setChecked(LineageSettings.Secure.getInt(getContentResolver(),
+        //        LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1);
     }
 
     @Override
@@ -191,8 +191,8 @@ public class CarbonSettingsActivity extends BaseSetupWizardActivity {
     private void updateDisableNavkeysOption() {
         if (mSupportsKeyDisabler) {
             final Bundle myPageBundle = mSetupWizardApp.getSettingsBundle();
-            boolean enabled = LineageSettings.System.getIntForUser(getContentResolver(),
-                    LineageSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+            boolean enabled = false; //LineageSettings.System.getIntForUser(getContentResolver(),
+                    //LineageSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
             boolean checked = myPageBundle.containsKey(DISABLE_NAV_KEYS) ?
                     myPageBundle.getBoolean(DISABLE_NAV_KEYS) :
                     enabled;
@@ -203,8 +203,8 @@ public class CarbonSettingsActivity extends BaseSetupWizardActivity {
 
     private void updatePrivacyGuardOption() {
         final Bundle bundle = mSetupWizardApp.getSettingsBundle();
-        boolean enabled = LineageSettings.Secure.getInt(getContentResolver(),
-                LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) != 0;
+        boolean enabled = false; //LineageSettings.Secure.getInt(getContentResolver(),
+                //LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) != 0;
         boolean checked = bundle.containsKey(KEY_PRIVACY_GUARD) ?
                 bundle.getBoolean(KEY_PRIVACY_GUARD) :
                 enabled;
@@ -213,7 +213,7 @@ public class CarbonSettingsActivity extends BaseSetupWizardActivity {
     }
 
     private static boolean isKeyDisablerSupported(Context context) {
-        final LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
-        return hardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE);
+        //final LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+        return false; //hardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE);
     }
 }
