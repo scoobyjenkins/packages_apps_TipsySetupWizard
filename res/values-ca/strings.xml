@@ -56,12 +56,12 @@
     <string name="yes">Sí</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Trucada d\'emergència</string>
-    <string name="setup_services">Característiques de CarbonROM</string>
-    <string name="services_explanation" product="tablet">Aquests serveis serveixen per ampliar les capacitats de la teva tauleta. Les dades s\'utilitzaran d\'acord amb la <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de CarbonROM.</string>
-    <string name="services_explanation" product="default">Aquests serveis serveixen per ampliar les capacitats del teu telèfon. Les dades s\'utilitzaran d\'acord amb la <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de CarbonROM.</string>
+    <string name="setup_services">Característiques de TipsyOS</string>
+    <string name="services_explanation" product="tablet">Aquests serveis serveixen per ampliar les capacitats de la teva tauleta. Les dades s\'utilitzaran d\'acord amb la <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de TipsyOS.</string>
+    <string name="services_explanation" product="default">Aquests serveis serveixen per ampliar les capacitats del teu telèfon. Les dades s\'utilitzaran d\'acord amb la <xliff:g id="name" example="Privacy Policy">%s</xliff:g> de TipsyOS.</string>
     <string name="services_privacy_policy">Política de privacitat</string>
-    <string name="services_help_improve_cm">Ajuda a millorar <xliff:g id="name" example="CarbonROM">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CarbonROM">%1$s</xliff:g> enviant automàticament les dades de diagnòstic i d\'ús a CarbonROM. Aquesta informació no es pot utilitzar per identificar-te i dóna un cop de mà als equips que treballen en coses com la duració de les bateries, el rendiment de les aplicacions i noves característiques de <xliff:g id="name" example="CarbonROM">%2$s</xliff:g>.</string>
+    <string name="services_help_improve_cm">Ajuda a millorar <xliff:g id="name" example="TipsyOS">%s</xliff:g></string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve TipsyOS">%1$s</xliff:g> enviant automàticament les dades de diagnòstic i d\'ús a TipsyOS. Aquesta informació no es pot utilitzar per identificar-te i dóna un cop de mà als equips que treballen en coses com la duració de les bateries, el rendiment de les aplicacions i noves característiques de <xliff:g id="name" example="TipsyOS">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Utilitza les tecles de navegació en pantalla</b> enlloc de les tecles físiques.</string>
     <string name="setup_unlock">Desbloqueja</string>
     <string name="setup_device_locked">Aquest dispositiu ha estat bloquejat per l\'usuari.</string>

@@ -13,9 +13,9 @@
 // limitations under the License.
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.carbonrom.setupwizard",
+    name: "privapp_whitelist_org.tipsy.setupwizard",
     sub_dir: "permissions",
-    src: "org.carbonrom.setupwizard.xml",
+    src: "org.tipsy.setupwizard.xml",
     filename_from_src: true,
 }
 

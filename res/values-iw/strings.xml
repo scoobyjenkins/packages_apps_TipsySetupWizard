@@ -56,12 +56,12 @@
     <string name="yes">כן</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">שיחת חירום</string>
-    <string name="setup_services">תכונות CarbonROM</string>
-    <string name="services_explanation" product="tablet">שירותים אלה פועלים עבורך כדי להרחיב את יכולות המכשיר שלך. המידע ישומש בכפוף ל־<xliff:g id="name" example="Privacy Policy">%s</xliff:g> של CarbonROM.</string>
-    <string name="services_explanation" product="default">שירותים אלה פועלים עבורך כדי להרחיב את יכולות המכשיר שלך. המידע ישומש בכפוף ל־<xliff:g id="name" example="Privacy Policy">%s</xliff:g> של CarbonROM.</string>
+    <string name="setup_services">תכונות TipsyOS</string>
+    <string name="services_explanation" product="tablet">שירותים אלה פועלים עבורך כדי להרחיב את יכולות המכשיר שלך. המידע ישומש בכפוף ל־<xliff:g id="name" example="Privacy Policy">%s</xliff:g> של TipsyOS.</string>
+    <string name="services_explanation" product="default">שירותים אלה פועלים עבורך כדי להרחיב את יכולות המכשיר שלך. המידע ישומש בכפוף ל־<xliff:g id="name" example="Privacy Policy">%s</xliff:g> של TipsyOS.</string>
     <string name="services_privacy_policy">מדיניות הפרטיות</string>
-    <string name="services_help_improve_cm">עזור בשיפור <xliff:g id="name" example="CarbonROM">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CarbonROM">%1$s</xliff:g> על ידי שליחת נתוני אבחון ושימוש אל CarbonROM. מידע זה לא יוכל לשמש בכדי לזהותך, והוא תורם לצוותים העובדים על תחומים כמו חיי סוללה, ביצועים ותכונות חדשות ל־<xliff:g id="name" example="CarbonROM">%2$s</xliff:g>.</string>
+    <string name="services_help_improve_cm">עזור בשיפור <xliff:g id="name" example="TipsyOS">%s</xliff:g></string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve TipsyOS">%1$s</xliff:g> על ידי שליחת נתוני אבחון ושימוש אל TipsyOS. מידע זה לא יוכל לשמש בכדי לזהותך, והוא תורם לצוותים העובדים על תחומים כמו חיי סוללה, ביצועים ותכונות חדשות ל־<xliff:g id="name" example="TipsyOS">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>השתמש במקשי הניווט במסך</b> במקום במקשים הפיזיים.</string>
     <string name="setup_unlock">פתיחה</string>
     <string name="setup_device_locked">מכשיר זה ננעל על-ידי המשתמש.</string>

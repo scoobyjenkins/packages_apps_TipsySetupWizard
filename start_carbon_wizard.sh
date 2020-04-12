@@ -1,9 +1,0 @@
-#!/bin/bash
-
-adb root
-wait ${!}
-adb shell pm disable com.google.android.setupwizard || true
-wait ${!}
-adb shell pm disable com.android.provision || true
-wait ${!}
-adb shell am start org.carbonrom.setupwizard/org.carbonrom.setupwizard.SetupWizardTestActivity

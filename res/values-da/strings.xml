@@ -56,9 +56,9 @@
     <string name="yes">Ja</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Nødopkald</string>
-    <string name="setup_services">CarbonROM-funktioner</string>
-    <string name="services_explanation" product="tablet">Disse tjenester giver dig flere muligheder med din tablet. Data bliver anvendt i overensstemmelse med CarbonROM\' <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-    <string name="services_explanation" product="default">Disse tjenester giver dig flere muligheder med din telefon. Data bliver anvendt i overensstemmelse med CarbonROM\' <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="setup_services">TipsyOS-funktioner</string>
+    <string name="services_explanation" product="tablet">Disse tjenester giver dig flere muligheder med din tablet. Data bliver anvendt i overensstemmelse med TipsyOS\' <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_explanation" product="default">Disse tjenester giver dig flere muligheder med din telefon. Data bliver anvendt i overensstemmelse med TipsyOS\' <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Privatlivspolitik</string>
     <string name="services_os_nav_keys_label"><b>Brug navigationstaster på skærmen</b> i stedet for fysiske knapper.</string>
     <string name="services_help_improve_cm">Hjælp med at forbedre <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

@@ -17,10 +17,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Setup Wizard</string>
-    <string name="os_name" translatable="false">CarbonROM</string>
+    <string name="os_name" translatable="false">TipsyOS</string>
 
-    <string name="carbon_wizard_script_uri" translatable="false">android.resource://org.carbonrom.setupwizard/raw/carbon_wizard_script</string>
-    <string name="carbon_wizard_script_user_uri" translatable="false">android.resource://org.carbonrom.setupwizard/raw/carbon_wizard_script_user</string>
+    <string name="tipsy_wizard_script_uri" translatable="false">android.resource://org.tipsy.setupwizard/raw/tipsy_wizard_script</string>
+    <string name="tipsy_wizard_script_user_uri" translatable="false">android.resource://org.tipsy.setupwizard/raw/tipsy_wizard_script_user</string>
 
     <string name="activity_label_empty" />
 
@@ -43,8 +43,8 @@
     <string name="setup_current_date">Current date</string>
     <string name="setup_current_time">Current time</string>
 
-    <string name="welcome_summary">You must be new! Before you can start using CarbonROM, we need to get some of the basics set up to personalize your experience. Start by selecting your language below.</string>
-    <string name="finish_summary">Now that your device is all set up, you can start using your device and experience everything CarbonROM has to offer. Enjoy!</string>
+    <string name="welcome_summary">You must be new! Before you can start using TipsyOS, we need to get some of the basics set up to personalize your experience. Start by selecting your language below.</string>
+    <string name="finish_summary">Now that your device is all set up, you can start using your device and experience everything TipsyOS has to offer. Enjoy!</string>
 
     <string name="sim_missing_summary" product="tablet">A SIM card has not been detected in your tablet. To insert a SIM card, read the instructions that came with your device.</string>
     <string name="sim_missing_summary" product="default">A SIM card has not been detected in your phone. To insert a SIM card, read the instructions that came with your device.</string>
@@ -74,12 +74,12 @@
 
     <string name="emergency_call">Emergency call</string>
 
-    <string name="setup_services">CarbonROM features</string>
-    <string name="services_explanation" product="tablet">These services work for you to extend the capabilities of your tablet. Data will be used in accordance with CarbonROM\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-    <string name="services_explanation" product="default">These services work for you to extend the capabilities of your phone. Data will be used in accordance with CarbonROM\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="setup_services">TipsyOS features</string>
+    <string name="services_explanation" product="tablet">These services work for you to extend the capabilities of your tablet. Data will be used in accordance with TipsyOS\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_explanation" product="default">These services work for you to extend the capabilities of your phone. Data will be used in accordance with TipsyOS\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Privacy Policy</string>
-    <string name="services_help_improve_cm">Help improve <xliff:g id="name" example="CarbonROM">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CarbonROM">%1$s</xliff:g> by automatically sending diagnostic and usage data to CarbonROM. This information can’t be used to identify you and lends a hand to teams working on things like battery life, app performance, and new <xliff:g id="name" example="LineageOS">%2$s</xliff:g> features.</string>
+    <string name="services_help_improve_cm">Help improve <xliff:g id="name" example="TipsyOS">%s</xliff:g></string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve TipsyOS">%1$s</xliff:g> by automatically sending diagnostic and usage data to TipsyOS. This information can’t be used to identify you and lends a hand to teams working on things like battery life, app performance, and new <xliff:g id="name" example="LineageOS">%2$s</xliff:g> features.</string>
     <string name="services_os_nav_keys_label"><b>Use on screen navigation keys</b> instead of hardware keys.</string>
     <string name="services_dark_theme"><b>Use the dark theme</b> all the time.</string>
     <string name="services_customize_theme"><b>Customize your theme</b> by choosing colors and icons.</string>

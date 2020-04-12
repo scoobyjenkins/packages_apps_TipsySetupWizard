@@ -56,12 +56,12 @@
     <string name="yes">Si</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Emergenza</string>
-    <string name="setup_services">Funzioni CarbonROM</string>
-    <string name="services_explanation" product="tablet">Questi servizi funzionano per estendere le funzioni del tablet. I dati saranno utilizzati in accordo con <xliff:g id="name" example="Privacy Policy">%s</xliff:g> di CarbonROM.</string>
-    <string name="services_explanation" product="default">Questi servizi funzionano per estendere le funzioni del telefono. I dati saranno utilizzati in accordo con <xliff:g id="name" example="Privacy Policy">%s</xliff:g> di CarbonROM.</string>
+    <string name="setup_services">Funzioni TipsyOS</string>
+    <string name="services_explanation" product="tablet">Questi servizi funzionano per estendere le funzioni del tablet. I dati saranno utilizzati in accordo con <xliff:g id="name" example="Privacy Policy">%s</xliff:g> di TipsyOS.</string>
+    <string name="services_explanation" product="default">Questi servizi funzionano per estendere le funzioni del telefono. I dati saranno utilizzati in accordo con <xliff:g id="name" example="Privacy Policy">%s</xliff:g> di TipsyOS.</string>
     <string name="services_privacy_policy">Informativa sulla privacy</string>
-    <string name="services_help_improve_cm">Contribuisci a migliorare <xliff:g id="name" example="CarbonROM">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CarbonROM">%1$s</xliff:g> inviando automaticamente dati diagnostici e di consumo agli svilupatori di CarbonROM. Queste informazioni non possono essere utilizzate per identificare te ma danno una mano ai team che lavorano su cose come la durata della batteria, performance delle app e nuove funzioni di <xliff:g id="name" example="CarbonROM">%2$s</xliff:g>.</string>
+    <string name="services_help_improve_cm">Contribuisci a migliorare <xliff:g id="name" example="TipsyOS">%s</xliff:g></string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve TipsyOS">%1$s</xliff:g> inviando automaticamente dati diagnostici e di consumo agli svilupatori di TipsyOS. Queste informazioni non possono essere utilizzate per identificare te ma danno una mano ai team che lavorano su cose come la durata della batteria, performance delle app e nuove funzioni di <xliff:g id="name" example="TipsyOS">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Usa i pulsanti virtuali a schermo</b> invece di quelli fisici.</string>
     <string name="setup_unlock">Sblocca</string>
     <string name="setup_device_locked">Questo dispositivo è stato bloccato dall\'utente.</string>

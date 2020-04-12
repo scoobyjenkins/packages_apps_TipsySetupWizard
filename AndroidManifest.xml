@@ -17,7 +17,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
-          package="org.carbonrom.setupwizard"
+          package="org.tipsy.setupwizard"
           android:versionCode="5"
           android:sharedUserId="android.uid.system">
 
@@ -40,14 +40,14 @@
     <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
     <uses-permission android:name="android.permission.BACKUP" />
-    <uses-permission android:name="carbonrom.permission.FINISH_SETUP" />
+    <uses-permission android:name="tipsy.permission.FINISH_SETUP" />
 
     <permission
-        android:name="carbonrom.permission.FINISH_SETUP"
+        android:name="tipsy.permission.FINISH_SETUP"
         android:protectionLevel="signatureOrSystem" />
 
-    <protected-broadcast android:name="org.carbonrom.setupwizard.SETUP_FINISHED"
-                         android:permission="carbonrom.permission.FINISH_SETUP"/>
+    <protected-broadcast android:name="org.tipsy.setupwizard.SETUP_FINISHED"
+                         android:permission="tipsy.permission.FINISH_SETUP"/>
 
     <application android:label="@string/app_name"
                  android:icon="@mipmap/ic_launcher"
@@ -97,7 +97,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_BLUETOOTH_SETUP" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_BLUETOOTH_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -109,7 +109,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_LOCALE" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_LOCALE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -121,7 +121,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_DATETIME" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_DATETIME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -134,7 +134,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_WIFI_SETUP" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_WIFI_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -147,7 +147,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_CAPTIVE_PORTAL_SETUP" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_CAPTIVE_PORTAL_SETUP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -160,7 +160,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_SIM_MISSING" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_SIM_MISSING" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -173,7 +173,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_CHOOSE_DATA_SIM" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_CHOOSE_DATA_SIM" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -186,7 +186,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_ENABLE_MOBILE_DATA" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_ENABLE_MOBILE_DATA" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -199,19 +199,19 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_LOCATION_SETTINGS" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_LOCATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".CarbonSettingsActivity"
+        <activity android:name=".TipsySettingsActivity"
                   android:label="@string/activity_label_empty"
                   android:excludeFromRecents="true"
                   android:configChanges="mcc|mnc"
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_SETTINGS" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -224,7 +224,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_FINGERPRINT_SETTINGS" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_FINGERPRINT_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -237,7 +237,7 @@
                   android:exported="false"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_LOCKSCREEN_SETTINGS" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_LOCKSCREEN_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -249,7 +249,7 @@
                   android:immersive="true"
                   android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.CARBON_SETUP_COMPLETE" />
+                <action android:name="org.tipsy.setupwizard.TIPSY_SETUP_COMPLETE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -261,7 +261,7 @@
                   android:label="@@string/activity_label_empty"
                   android:theme="@style/NoDisplay">
             <intent-filter>
-                <action android:name="org.carbonrom.setupwizard.EXIT"/>
+                <action android:name="org.tipsy.setupwizard.EXIT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

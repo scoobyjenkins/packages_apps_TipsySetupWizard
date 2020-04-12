@@ -56,12 +56,12 @@
     <string name="yes">Áno</string>
     <string name="data_sim_name">SIM <xliff:g id="sub">%d</xliff:g> - <xliff:g id="name">%s</xliff:g></string>
     <string name="emergency_call">Tiesňový hovor</string>
-    <string name="setup_services">CarbonROM funkcie</string>
-    <string name="services_explanation" product="tablet">Tieto služby sú určené pre vás a rozširujú možnosti vášho tabletu. Údaje sa použijú v súlade s CarbonROM\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
-    <string name="services_explanation" product="default">Tieto služby sú určené pre vás a rozširujú možnosti vášho telefónu. Údaje sa použijú v súlade s CarbonROM\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="setup_services">TipsyOS funkcie</string>
+    <string name="services_explanation" product="tablet">Tieto služby sú určené pre vás a rozširujú možnosti vášho tabletu. Údaje sa použijú v súlade s TipsyOS\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
+    <string name="services_explanation" product="default">Tieto služby sú určené pre vás a rozširujú možnosti vášho telefónu. Údaje sa použijú v súlade s TipsyOS\'s <xliff:g id="name" example="Privacy Policy">%s</xliff:g>.</string>
     <string name="services_privacy_policy">Ochrana osobných údajov</string>
-    <string name="services_help_improve_cm">Pomôžte vylepšiť <xliff:g id="name" example="CarbonROM">%s</xliff:g></string>
-    <string name="services_metrics_label"><xliff:g id="name" example="Help improve CarbonROM">%1$s</xliff:g> automatickým zasielaním diagnostických údajov a údajov o používaní do CarbonROM. Tieto informácie sa nepoužijú na vašu identifikáciu, ale pomôžu tímom pracujúcim na výdrži, výkone aplikácií a nových funkciách <xliff:g id="name" example="CarbonROM">%2$s</xliff:g>.</string>
+    <string name="services_help_improve_cm">Pomôžte vylepšiť <xliff:g id="name" example="TipsyOS">%s</xliff:g></string>
+    <string name="services_metrics_label"><xliff:g id="name" example="Help improve TipsyOS">%1$s</xliff:g> automatickým zasielaním diagnostických údajov a údajov o používaní do TipsyOS. Tieto informácie sa nepoužijú na vašu identifikáciu, ale pomôžu tímom pracujúcim na výdrži, výkone aplikácií a nových funkciách <xliff:g id="name" example="TipsyOS">%2$s</xliff:g>.</string>
     <string name="services_os_nav_keys_label"><b>Používajte navigačné tlačidlá na obrazovke</b> namiesto hardvérových tlačidiel.</string>
     <string name="setup_unlock">Odomknúť</string>
     <string name="setup_device_locked">Toto zariadenie bolo uzamknuté používateľom.</string>

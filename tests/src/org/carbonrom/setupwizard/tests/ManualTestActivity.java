@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.carbonrom.setupwizard.tests;
+package org.tipsy.setupwizard.tests;
 
 
 import static android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT;
@@ -73,7 +73,7 @@ public class ManualTestActivity extends Activity {
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, 0);
             final Intent intent = new Intent("android.intent.action.MAIN");
             intent.addCategory("android.intent.category.HOME");
-            resetComponentSets("org.carbonrom.setupwizard", GET_ACTIVITIES |
+            resetComponentSets("org.tipsy.setupwizard", GET_ACTIVITIES |
                     GET_RECEIVERS | GET_SERVICES | MATCH_DISABLED_COMPONENTS);
             resetComponentSets("com.google.android.setupwizard", GET_ACTIVITIES |
                     GET_RECEIVERS | GET_SERVICES | MATCH_DISABLED_COMPONENTS);
@@ -109,7 +109,7 @@ public class ManualTestActivity extends Activity {
         Settings.Secure.putInt(getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, 1);
         Intent intent = new Intent("android.intent.action.MAIN");
         intent.addCategory("android.intent.category.HOME");
-        disableComponentSets("org.carbonrom.setupwizard",  GET_ACTIVITIES |
+        disableComponentSets("org.tipsy.setupwizard",  GET_ACTIVITIES |
                 GET_RECEIVERS | GET_SERVICES);
         try {
             disableComponentSets("com.google.android.setupwizard",  GET_ACTIVITIES |
